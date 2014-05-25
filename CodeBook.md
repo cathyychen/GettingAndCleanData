@@ -86,3 +86,6 @@ This is the variable names and their description in dataset of file "merged_tidy
 | 79 | fBodyBodyGyroJerkMagMean     | mean of frequency domain signals of body  body  gyroscope Jerk magnitude                 |                                                                            |
 | 80 | fBodyBodyGyroJerkMagStd      | standard deviation of frequency domain signals of body  body  gyroscope Jerk magnitude   |                                                                            |
 | 81 | fBodyBodyGyroJerkMagMeanFreq | mean of frequency domain signals of body  body  gyroscope Jerk magnitude frequency       |                                                                            |
+
+
+"average_per_subject_per_activity.txt" contains the dataset with the average of each variable for each activity and each subject.
