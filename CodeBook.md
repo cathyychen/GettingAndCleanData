@@ -1,83 +1,83 @@
-|    | names.sub_data.              |
-|----|------------------------------|
-| 1  | subject                      |  the ID of each subject
-| 2  | activity                     |
-| 3  | tBodyAccMeanX                |
-| 4  | tBodyAccMeanY                |
-| 5  | tBodyAccMeanZ                |
-| 6  | tBodyAccStdX                 |
-| 7  | tBodyAccStdY                 |
-| 8  | tBodyAccStdZ                 |
-| 9  | tGravityAccMeanX             |
-| 10 | tGravityAccMeanY             |
-| 11 | tGravityAccMeanZ             |
-| 12 | tGravityAccStdX              |
-| 13 | tGravityAccStdY              |
-| 14 | tGravityAccStdZ              |
-| 15 | tBodyAccJerkMeanX            |
-| 16 | tBodyAccJerkMeanY            |
-| 17 | tBodyAccJerkMeanZ            |
-| 18 | tBodyAccJerkStdX             |
-| 19 | tBodyAccJerkStdY             |
-| 20 | tBodyAccJerkStdZ             |
-| 21 | tBodyGyroMeanX               |
-| 22 | tBodyGyroMeanY               |
-| 23 | tBodyGyroMeanZ               |
-| 24 | tBodyGyroStdX                |
-| 25 | tBodyGyroStdY                |
-| 26 | tBodyGyroStdZ                |
-| 27 | tBodyGyroJerkMeanX           |
-| 28 | tBodyGyroJerkMeanY           |
-| 29 | tBodyGyroJerkMeanZ           |
-| 30 | tBodyGyroJerkStdX            |
-| 31 | tBodyGyroJerkStdY            |
-| 32 | tBodyGyroJerkStdZ            |
-| 33 | tBodyAccMagMean              |
-| 34 | tBodyAccMagStd               |
-| 35 | tGravityAccMagMean           |
-| 36 | tGravityAccMagStd            |
-| 37 | tBodyAccJerkMagMean          |
-| 38 | tBodyAccJerkMagStd           |
-| 39 | tBodyGyroMagMean             |
-| 40 | tBodyGyroMagStd              |
-| 41 | tBodyGyroJerkMagMean         |
-| 42 | tBodyGyroJerkMagStd          |
-| 43 | fBodyAccMeanX                |
-| 44 | fBodyAccMeanY                |
-| 45 | fBodyAccMeanZ                |
-| 46 | fBodyAccStdX                 |
-| 47 | fBodyAccStdY                 |
-| 48 | fBodyAccStdZ                 |
-| 49 | fBodyAccMeanFreqX            |
-| 50 | fBodyAccMeanFreqY            |
-| 51 | fBodyAccMeanFreqZ            |
-| 52 | fBodyAccJerkMeanX            |
-| 53 | fBodyAccJerkMeanY            |
-| 54 | fBodyAccJerkMeanZ            |
-| 55 | fBodyAccJerkStdX             |
-| 56 | fBodyAccJerkStdY             |
-| 57 | fBodyAccJerkStdZ             |
-| 58 | fBodyAccJerkMeanFreqX        |
-| 59 | fBodyAccJerkMeanFreqY        |
-| 60 | fBodyAccJerkMeanFreqZ        |
-| 61 | fBodyGyroMeanX               |
-| 62 | fBodyGyroMeanY               |
-| 63 | fBodyGyroMeanZ               |
-| 64 | fBodyGyroStdX                |
-| 65 | fBodyGyroStdY                |
-| 66 | fBodyGyroStdZ                |
-| 67 | fBodyGyroMeanFreqX           |
-| 68 | fBodyGyroMeanFreqY           |
-| 69 | fBodyGyroMeanFreqZ           |
-| 70 | fBodyAccMagMean              |
-| 71 | fBodyAccMagStd               |
-| 72 | fBodyAccMagMeanFreq          |
-| 73 | fBodyBodyAccJerkMagMean      |
-| 74 | fBodyBodyAccJerkMagStd       |
-| 75 | fBodyBodyAccJerkMagMeanFreq  |
-| 76 | fBodyBodyGyroMagMean         |
-| 77 | fBodyBodyGyroMagStd          |
-| 78 | fBodyBodyGyroMagMeanFreq     |
-| 79 | fBodyBodyGyroJerkMagMean     |
-| 80 | fBodyBodyGyroJerkMagStd      |
-| 81 | fBodyBodyGyroJerkMagMeanFreq |
+|    | Variable                     | Description                                                                              | Values                                                                     |
+|----|------------------------------|------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
+| 1  | subject                      | subject ID                                                                               | integer 1-30                                                               |
+| 2  | activity                     | activity type                                                                            | WALKING,  WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING,  STANDING, LAYING |
+| 3  | tBodyAccMeanX                | mean of total body acceleration in X axis                                                |                                                                            |
+| 4  | tBodyAccMeanY                | mean of total body acceleration in Y axis                                                |                                                                            |
+| 5  | tBodyAccMeanZ                | mean of total body acceleration in Z axis                                                |                                                                            |
+| 6  | tBodyAccStdX                 | standard deviation of total body acceleration in X axis                                  |                                                                            |
+| 7  | tBodyAccStdY                 | standard deviation of total body acceleration in Y axis                                  |                                                                            |
+| 8  | tBodyAccStdZ                 | standard deviation of total body acceleration in Z axis                                  |                                                                            |
+| 9  | tGravityAccMeanX             | mean of total gravity acceleration in X axis                                             |                                                                            |
+| 10 | tGravityAccMeanY             | mean of total gravity acceleration in Y axis                                             |                                                                            |
+| 11 | tGravityAccMeanZ             | mean of total gravity acceleration in Z axis                                             |                                                                            |
+| 12 | tGravityAccStdX              | standard deviation of total gravity acceleration in X axis                               |                                                                            |
+| 13 | tGravityAccStdY              | standard deviation of total gravity acceleration in Y axis                               |                                                                            |
+| 14 | tGravityAccStdZ              | standard deviation of total gravity acceleration in Z axis                               |                                                                            |
+| 15 | tBodyAccJerkMeanX            | mean of total body acceleration Jerk in X axis                                           |                                                                            |
+| 16 | tBodyAccJerkMeanY            | mean of total body acceleration Jerk in Y axis                                           |                                                                            |
+| 17 | tBodyAccJerkMeanZ            | mean of total body acceleration Jerk in Z axis                                           |                                                                            |
+| 18 | tBodyAccJerkStdX             | standard deviation of total body acceleration Jerk in X axis                             |                                                                            |
+| 19 | tBodyAccJerkStdY             | standard deviation of total body acceleration Jerk in Y axis                             |                                                                            |
+| 20 | tBodyAccJerkStdZ             | standard deviation of total body acceleration Jerk in Z axis                             |                                                                            |
+| 21 | tBodyGyroMeanX               | mean of total body gyroscope in X axis                                                   |                                                                            |
+| 22 | tBodyGyroMeanY               | mean of total body gyroscope in Y axis                                                   |                                                                            |
+| 23 | tBodyGyroMeanZ               | mean of total body gyroscope in Z axis                                                   |                                                                            |
+| 24 | tBodyGyroStdX                | standard deviation of total body gyroscope in X axis                                     |                                                                            |
+| 25 | tBodyGyroStdY                | standard deviation of total body gyroscope in Y axis                                     |                                                                            |
+| 26 | tBodyGyroStdZ                | standard deviation of total body gyroscope in Z axis                                     |                                                                            |
+| 27 | tBodyGyroJerkMeanX           | mean of total body gyroscope Jerk in X axis                                              |                                                                            |
+| 28 | tBodyGyroJerkMeanY           | mean of total body gyroscope Jerk in Y axis                                              |                                                                            |
+| 29 | tBodyGyroJerkMeanZ           | mean of total body gyroscope Jerk in Z axis                                              |                                                                            |
+| 30 | tBodyGyroJerkStdX            | standard deviation of total body gyroscope Jerk in X axis                                |                                                                            |
+| 31 | tBodyGyroJerkStdY            | standard deviation of total body gyroscope Jerk in Y axis                                |                                                                            |
+| 32 | tBodyGyroJerkStdZ            | standard deviation of total body gyroscope Jerk in Z axis                                |                                                                            |
+| 33 | tBodyAccMagMean              | mean of total body acceleration magnitude                                                |                                                                            |
+| 34 | tBodyAccMagStd               | standard deviation of total body acceleration magnitude                                  |                                                                            |
+| 35 | tGravityAccMagMean           | mean of total gravity acceleration magnitude                                             |                                                                            |
+| 36 | tGravityAccMagStd            | standard deviation of total gravity acceleration magnitude                               |                                                                            |
+| 37 | tBodyAccJerkMagMean          | mean of total  body acceleration Jerk magnitude                                          |                                                                            |
+| 38 | tBodyAccJerkMagStd           | standard devitation of total  body acceleration Jerk magnitude                           |                                                                            |
+| 39 | tBodyGyroMagMean             | mean of total  body gyroscope magnitude                                                  |                                                                            |
+| 40 | tBodyGyroMagStd              | standard deviation of total  body gyroscope magnitude                                    |                                                                            |
+| 41 | tBodyGyroJerkMagMean         | mean of total  body gyroscope Jerk magnitude                                             |                                                                            |
+| 42 | tBodyGyroJerkMagStd          | standard deviation of total  body gyroscope Jerk magnitude                               |                                                                            |
+| 43 | fBodyAccMeanX                | mean of frequency domain signals of body acceleration in X axis                          |                                                                            |
+| 44 | fBodyAccMeanY                | mean of frequency domain signals of body acceleration in Y axis                          |                                                                            |
+| 45 | fBodyAccMeanZ                | mean of frequency domain signals of body acceleration in Z axis                          |                                                                            |
+| 46 | fBodyAccStdX                 | standard deviation of frequency domain signals of body acceleration in X axis            |                                                                            |
+| 47 | fBodyAccStdY                 | standard deviation of frequency domain signals of body acceleration in Y axis            |                                                                            |
+| 48 | fBodyAccStdZ                 | standard deviation of frequency domain signals of body acceleration in Z axis            |                                                                            |
+| 49 | fBodyAccMeanFreqX            | mean of frequency domain signals of body acceleration frequency in X axis                |                                                                            |
+| 50 | fBodyAccMeanFreqY            | mean of frequency domain signals of body acceleration frequency in Y axis                |                                                                            |
+| 51 | fBodyAccMeanFreqZ            | mean of frequency domain signals of body acceleration frequency in Z axis                |                                                                            |
+| 52 | fBodyAccJerkMeanX            | mean of frequency domain signals of body acceleration Jerk in X axis                     |                                                                            |
+| 53 | fBodyAccJerkMeanY            | mean of frequency domain signals of body acceleration Jerk in Y axis                     |                                                                            |
+| 54 | fBodyAccJerkMeanZ            | mean of frequency domain signals of body acceleration Jerk in Z axis                     |                                                                            |
+| 55 | fBodyAccJerkStdX             | standard deviation of frequency domain signals of body acceleration Jerk in X axis       |                                                                            |
+| 56 | fBodyAccJerkStdY             | standard deviation of frequency domain signals of body acceleration Jerk in Y axis       |                                                                            |
+| 57 | fBodyAccJerkStdZ             | standard deviation  of frequency domain signals of body acceleration Jerk in Z axis      |                                                                            |
+| 58 | fBodyAccJerkMeanFreqX        | mean of frequency domain signals of body acceleration Jerk frequency in X axis           |                                                                            |
+| 59 | fBodyAccJerkMeanFreqY        | mean of frequency domain signals of body acceleration Jerk frequency in Y axis           |                                                                            |
+| 60 | fBodyAccJerkMeanFreqZ        | mean of frequency domain signals of body acceleration Jerk frequency in Z axis           |                                                                            |
+| 61 | fBodyGyroMeanX               | mean of frequency domain signals of body  gyroscope in X axis                            |                                                                            |
+| 62 | fBodyGyroMeanY               | mean of frequency domain signals of body  gyroscope in Y axis                            |                                                                            |
+| 63 | fBodyGyroMeanZ               | mean of frequency domain signals of body  gyroscope in Z axis                            |                                                                            |
+| 64 | fBodyGyroStdX                | standard deviation of frequency domain signals of body  gyroscope in X axis              |                                                                            |
+| 65 | fBodyGyroStdY                | standard deviation of frequency domain signals of body  gyroscope in Y axis              |                                                                            |
+| 66 | fBodyGyroStdZ                | standard deviation of frequency domain signals of body  gyroscope in Z axis              |                                                                            |
+| 67 | fBodyGyroMeanFreqX           | mean of frequency domain signals of body  gyroscope frequency in X axis                  |                                                                            |
+| 68 | fBodyGyroMeanFreqY           | mean of frequency domain signals of body  gyroscope frequency in Y axis                  |                                                                            |
+| 69 | fBodyGyroMeanFreqZ           | mean of frequency domain signals of body  gyroscope frequency in Z axis                  |                                                                            |
+| 70 | fBodyAccMagMean              | mean of frequency domain signals of body  acceleration magnitude                         |                                                                            |
+| 71 | fBodyAccMagStd               | standard deviation of frequency domain signals of body  acceleration magnitude           |                                                                            |
+| 72 | fBodyAccMagMeanFreq          | mean of frequency domain signals of body  acceleration magnitude frequency               |                                                                            |
+| 73 | fBodyBodyAccJerkMagMean      | mean of frequency domain signals of body  body acceleration Jerk magnitude               |                                                                            |
+| 74 | fBodyBodyAccJerkMagStd       | standard deviation of frequency domain signals of body  body acceleration Jerk magnitude |                                                                            |
+| 75 | fBodyBodyAccJerkMagMeanFreq  | mean of frequency domain signals of body  body acceleration Jerk magnitude frequency     |                                                                            |
+| 76 | fBodyBodyGyroMagMean         | mean of frequency domain signals of body  body  gyroscope magnitude                      |                                                                            |
+| 77 | fBodyBodyGyroMagStd          | standard deviation of frequency domain signals of body  body  gyroscope magnitude        |                                                                            |
+| 78 | fBodyBodyGyroMagMeanFreq     | mean of frequency domain signals of body  body  gyroscope magnitude frequency            |                                                                            |
+| 79 | fBodyBodyGyroJerkMagMean     | mean of frequency domain signals of body  body  gyroscope Jerk magnitude                 |                                                                            |
+| 80 | fBodyBodyGyroJerkMagStd      | standard deviation of frequency domain signals of body  body  gyroscope Jerk magnitude   |                                                                            |
+| 81 | fBodyBodyGyroJerkMagMeanFreq | mean of frequency domain signals of body  body  gyroscope Jerk magnitude frequency       |                                                                            |
