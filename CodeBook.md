@@ -103,7 +103,7 @@ This is the variable names and their description in dataset of file "merged_tidy
 | 80 | fBodyBodyGyroJerkMagStd      | standard deviation of frequency domain signals of body  body  gyroscope Jerk magnitude   |                                                                            |
 | 81 | fBodyBodyGyroJerkMagMeanFreq | mean of frequency domain signals of body  body  gyroscope Jerk magnitude frequency       |                                                                            |
 
-
+\\
 
 
 Part 2.
