@@ -1,3 +1,5 @@
+This is the variable names and their description in dataset of file "merged_tidy_dataset.txt".
+
 |    | Variable                     | Description                                                                              | Values                                                                     |
 |----|------------------------------|------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
 | 1  | subject                      | subject ID                                                                               | integer 1-30                                                               |
