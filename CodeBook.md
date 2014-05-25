@@ -1,6 +1,6 @@
 |    | names.sub_data.              |
 |----|------------------------------|
-| 1  | subject                      |
+| 1  | subject                      |  the ID of each subject
 | 2  | activity                     |
 | 3  | tBodyAccMeanX                |
 | 4  | tBodyAccMeanY                |
