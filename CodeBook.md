@@ -105,6 +105,24 @@ This is the variable names and their description in dataset of file "merged_tidy
 
 
 
+
+Part 2.
+How I merge the datasets
+For trainning dataset, we have "subject_train.txt", "y_train.txt","X_train.txt" and , these three
+files contains the subject ID, acvtivity type and corresponding variable values. So we
+combine these three sets by columns.
+File "activity_labels" contains activity labels, we extract them out.
+File "features.txt" contains all the feature variable names, we also extract them out.
+Then we name the merged training set with the above feature names and use names to denote acitivtie rather than numbers.
+Do exactly the same thing to test dataset.
+In the end we combine the two dataset we got by rows.
+Next, for each activity and each subject, we select a subset of the dataset we have from last step, then calculate
+the mean by column. So we will have a row vector with subject, activity, and means for all other variables for this subject and activity respectively.
+Then we combine all the row vector we got.
+Then we rename the dataset we got from last step, remove any "-","()" and space in variable names and
+add "Mean" as prefix to all the existing variable names.
+Finally, we output the dataset as txt file and csv file.
+
 The variables in file "average_per_subject_per_activity.txt" all start with "Mean", except subject and activity.
 Since this file contains the dataset with the average of each variable for each activity and each subject.
 To interpret each variable name, ignore the prefix "Mean" of each variable, only look at the rest part
