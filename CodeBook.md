@@ -1,4 +1,7 @@
 This is the variable names and their description in dataset of file "merged_tidy_dataset.txt".
+"merged_tidy_dataset.txt" contains the merged training and test dataset  with only measurements on the mean and standard deviation for each measurement.
+
+
 
 |    | Variable                     | Description                                                                              | Values                                                                     |
 |----|------------------------------|------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
