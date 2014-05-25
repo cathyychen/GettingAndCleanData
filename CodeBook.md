@@ -1,3 +1,19 @@
+Part 1.
+How I merge the datasets
+For trainning dataset, we have "subject_train.txt", "y_train.txt","X_train.txt" and , these three
+files contains the subject ID, acvtivity type and corresponding variable values. So we
+combine these three sets by columns.
+File "activity_labels" contains activity labels, we extract them out.
+File "features.txt" contains all the feature variable names, we also extract them out.
+Then we name the merged training set with the above feature names and use names to denote acitivtie rather than numbers.
+Do exactly the same thing to test dataset.
+In the end we combine the two dataset we got by rows.
+Next, we select the features whose name contain mean or standard deviation in it, and only keep those columns
+of our combined dataset.
+Then we rename the dataset we got from last step, remove any "-","()" and space in variable names and
+capitalize m in “mean" and s in "std".
+Finally, we output the dataset as txt file and csv file.
+
 This is the variable names and their description in dataset of file "merged_tidy_dataset.txt".
 "merged_tidy_dataset.txt" contains the merged training and test dataset  with only measurements on the mean and standard deviation for each measurement.
 
@@ -88,4 +104,57 @@ This is the variable names and their description in dataset of file "merged_tidy
 | 81 | fBodyBodyGyroJerkMagMeanFreq | mean of frequency domain signals of body  body  gyroscope Jerk magnitude frequency       |                                                                            |
 
 
-"average_per_subject_per_activity.txt" contains the dataset with the average of each variable for each activity and each subject.
+
+The variables in file "average_per_subject_per_activity.txt" all start with "Mean", except subject and activity.
+Since this file contains the dataset with the average of each variable for each activity and each subject.
+To interpret each variable name, ignore the prefix "Mean" of each variable, only look at the rest part
+of each variable name, they can be brief interpreted as following:
+
+These signals were used to estimate variables of the feature vector for each pattern:  
+'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+
+tBodyAcc-XYZ
+tGravityAcc-XYZ
+tBodyAccJerk-XYZ
+tBodyGyro-XYZ
+tBodyGyroJerk-XYZ
+tBodyAccMag
+tGravityAccMag
+tBodyAccJerkMag
+tBodyGyroMag
+tBodyGyroJerkMag
+fBodyAcc-XYZ
+fBodyAccJerk-XYZ
+fBodyGyro-XYZ
+fBodyAccMag
+fBodyAccJerkMag
+fBodyGyroMag
+fBodyGyroJerkMag
+
+The set of variables that were estimated from these signals are: 
+
+mean(): Mean value
+std(): Standard deviation
+mad(): Median absolute deviation 
+max(): Largest value in array
+min(): Smallest value in array
+sma(): Signal magnitude area
+energy(): Energy measure. Sum of the squares divided by the number of values. 
+iqr(): Interquartile range 
+entropy(): Signal entropy
+arCoeff(): Autorregresion coefficients with Burg order equal to 4
+correlation(): correlation coefficient between two signals
+maxInds(): index of the frequency component with largest magnitude
+meanFreq(): Weighted average of the frequency components to obtain a mean frequency
+skewness(): skewness of the frequency domain signal 
+kurtosis(): kurtosis of the frequency domain signal 
+bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of each window.
+angle(): Angle between to vectors.
+
+Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:
+
+gravityMean
+tBodyAccMean
+tBodyAccJerkMean
+tBodyGyroMean
+tBodyGyroJerkMean
